@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Box Now Cyprus - Modern Flat Design System
+   Inspired by Mediterranean calm, logistics precision, and Cyprus warmth
+*/
+
+@layer base {
+  :root {
+    /* Core brand colors - Muted earth tones with Mediterranean influence */
+    --background: 40 20% 98%;
+    --foreground: 220 15% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 20%;
+
+    /* Primary - Sage green (trust, calm, Mediterranean) */
+    --primary: 150 25% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Warm sand */
+    --secondary: 35 30% 92%;
+    --secondary-foreground: 220 15% 20%;
+
+    /* Muted - Light warm grey */
+    --muted: 40 15% 94%;
+    --muted-foreground: 220 10% 45%;
+
+    /* Accent - Terracotta warmth */
+    --accent: 25 60% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive - Muted coral */
+    --destructive: 0 55% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Success - Olive green */
+    --success: 140 35% 40%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning - Warm amber */
+    --warning: 40 90% 50%;
+    --warning-foreground: 220 15% 20%;
+
+    /* Info - Mediterranean blue */
+    --info: 200 60% 50%;
+    --info-foreground: 0 0% 100%;
+
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 150 25% 35%;
+
+    --radius: 0.625rem;
+
+    /* Sidebar */
+    --sidebar-background: 40 20% 97%;
+    --sidebar-foreground: 220 15% 25%;
+    --sidebar-primary: 150 25% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 40 20% 92%;
+    --sidebar-accent-foreground: 220 15% 20%;
+    --sidebar-border: 40 15% 88%;
+    --sidebar-ring: 150 25% 35%;
+
+    /* Custom status colors */
+    --status-pending: 40 90% 50%;
+    --status-received: 200 60% 50%;
+    --status-consolidating: 280 45% 55%;
+    --status-shipped: 150 35% 45%;
+    --status-ready: 140 50% 45%;
+    --status-delivered: 150 25% 35%;
+  }
+
+  .dark {
+    --background: 220 15% 10%;
+    --foreground: 40 20% 95%;
+
+    --card: 220 15% 13%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 220 15% 13%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 150 30% 50%;
+    --primary-foreground: 220 15% 10%;
+
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 40 20% 95%;
+
+    --muted: 220 15% 18%;
+    --muted-foreground: 40 15% 60%;
+
+    --accent: 25 50% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 50% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 140 40% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 40 80% 45%;
+    --warning-foreground: 220 15% 10%;
+
+    --info: 200 50% 45%;
+    --info-foreground: 0 0% 100%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 150 30% 50%;
+
+    --sidebar-background: 220 15% 12%;
+    --sidebar-foreground: 40 20% 90%;
+    --sidebar-primary: 150 30% 50%;
+    --sidebar-primary-foreground: 220 15% 10%;
+    --sidebar-accent: 220 15% 16%;
+    --sidebar-accent-foreground: 40 20% 90%;
+    --sidebar-border: 220 15% 20%;
+    --sidebar-ring: 150 30% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass {
+    @apply bg-white/80 backdrop-blur-sm;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .container-tight {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground/50;
+}
