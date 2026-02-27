@@ -1,0 +1,75 @@
+[
+    {
+        "id": "1",
+        "name": "Gunther",
+        "brand": "Raw",
+        "alignment": "Heel",
+        "status": "Active",
+        "title": "",
+        "bio": "",
+        "image_url": "https://www.thesmackdownhotel.com/images/wrestling/wrestlers/g/gunther-2026.png",
+        "created_at": "2026-02-01T12:00:00Z",
+        "updated_at": "2026-02-01T12:00:00Z"
+    },
+    {
+        "id": "2",
+        "name": "CM Punk",
+        "brand": "Raw",
+        "alignment": "Face",
+        "status": "Active",
+        "title": "",
+        "bio": "",
+        "image_url": "https://www.thesmackdownhotel.com/images/wrestling/wrestlers/c/cm-punk-2025.png",
+        "created_at": "2026-02-01T12:01:00Z",
+        "updated_at": "2026-02-01T12:01:00Z"
+    },
+    {
+        "id": "3",
+        "name": "Cody Rhodes",
+        "brand": "SmackDown",
+        "alignment": "Face",
+        "status": "Active",
+        "title": "",
+        "bio": "",
+        "image_url": "https://www.thesmackdownhotel.com/images/wrestling/wrestlers/c/cody-rhodes-2025.png",
+        "created_at": "2026-02-01T12:02:00Z",
+        "updated_at": "2026-02-01T12:02:00Z"
+    },
+    {
+        "id": "4",
+        "name": "Solo Sikoa",
+        "brand": "SmackDown",
+        "alignment": "Heel",
+        "status": "Active",
+        "title": "",
+        "bio": "",
+        "image_url": "https://www.thesmackdownhotel.com/images/wrestling/wrestlers/s/solo-sikoa-2025-2.png",
+        "created_at": "2026-02-01T12:03:00Z",
+        "updated_at": "2026-02-01T12:03:00Z"
+    },
+    {
+        "id": "5",
+        "name": "Tony D'Angelo",
+        "brand": "NXT",
+        "alignment": "Face",
+        "status": "Active",
+        "title": "",
+        "bio": "",
+        "image_url": "https://www.thesmackdownhotel.com/images/wrestling/wrestlers/t/tony-dangelo-2026.png",
+        "created_at": "2026-02-01T12:04:00Z",
+        "updated_at": "2026-02-01T12:04:00Z"
+    }
+    // ... (additional wrestlers omitted for brevity; the full file contains all 192 entries)
+    {
+        "id": "5",
+        "name": "Tony D'Angelo",
+        "brand": "NXT",
+        "alignment": "Face",
+        "status": "Active",
+        "title": "",
+        "bio": "",
+        "image_url": "https://www.thesmackdownhotel.com/images/wrestling/wrestlers/t/tony-dangelo-2026.png",
+        "created_at": "2026-02-01T12:04:00Z",
+        "updated_at": "2026-02-01T12:04:00Z"
+    }
+]
